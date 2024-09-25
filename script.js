@@ -1,7 +1,7 @@
 "use strict";
 
 const btnShowRef = document.getElementById("btnShowRef");
-const imgRef = document.querySelector(".inline-image");
+const imgRef = document.querySelector(".ref-image");
 
 btnShowRef.addEventListener('click', () => {
     if (imgRef.classList.contains("fade-in")) {
