@@ -78,11 +78,6 @@ section div {
     justify-content: center;
 }
 
-.align {
-
-    align-items: center;
-}
-
 
 /* image styling  */
 
@@ -104,6 +99,7 @@ img {
 /* text styling */
 
 .logo-brand {
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
