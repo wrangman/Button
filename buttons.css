@@ -1,0 +1,84 @@
+
+
+/* button styling */
+
+input {
+    all: unset;
+    font-family: inherit;
+
+    display: block;
+
+    padding: 1rem 2rem;
+
+    font-weight: 500;
+
+    color: white;
+    background-color: rgb(102, 195, 144);
+    
+    border-radius: 333rem;
+
+    box-shadow: 0 4px 4px hsla(149 93% 12% / 0.2);
+
+    cursor: pointer;
+
+    border: 1px solid transparent;
+}
+
+
+.btn-secondary {
+    background-color: transparent;
+
+    border: 1px solid hsl(149 73% 43% / 1);
+
+    box-shadow: none;
+
+    color: hsl(149 73% 43% / 1);
+}
+
+.btn-tertiary {
+    color: black;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    background: linear-gradient(to top, hsl(149 73% 43% / 0.7), hsl(147, 70%, 71%));
+    color: white;
+}
+
+
+.btn-tertiary:hover {
+    border: 1px solid hsl(149 73% 43% / 1);
+}
+
+.btn-secondary:active {
+    background-color: hsl(147 44% 58% / 0.9);
+
+
+}
+
+.btn-primary:active {
+    background: linear-gradient(to bottom, hsl(149 73% 43% / 0.7), hsl(147, 70%, 71%));
+    box-shadow: 0 1px 1px hsla(149 93% 12% / 0.3);
+}
+
+
+.takete {
+    border-radius: 0%;
+
+}
+
+.takete:hover {
+    background: hsl(147, 70%, 71%);
+}
+
+
+.takete:active {
+    background:  hsl(149 73% 43% / 0.7);
+}
+
+.takete:last-child:hover {
+    background: transparent;
+  
+} 

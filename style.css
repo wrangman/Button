@@ -1,0 +1,132 @@
+
+/* global styling */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+
+    font-size: 1.125em;
+    
+    background-color: hsl(0, 0%, 96%);
+
+    font-family:'Segoe UI', sans-serif;
+}
+
+header {
+    position: sticky;
+    top:0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0.5rem 2rem;
+        
+    background: hsl(0, 0%, 99%);
+
+    box-shadow: 0 4px 8px hsl(0 0% 0% / 0.1);
+
+    z-index: 1;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.primary-navigation {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 3rem;
+}
+
+.flex-layout {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+section div {
+    margin-bottom: 2rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* image styling  */
+
+.logo {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: rgb(30, 190, 108);
+    border-radius: 20rem;
+}
+
+
+/* text styling */
+
+.logo-brand {
+    font-weight: 600;
+}
+
+
+/* link styling */
+
+.nav-link,
+.nav-link:visited {
+    color: black;
+    font-weight: 400;
+    
+    text-underline-offset: 2em;
+    text-decoration-color: transparent;
+    transition: text-decoration-color 250ms ease-in-out,
+                text-underline-offset 250ms ease-in-out,
+                color 250ms ease-in-out;
+    
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: rgb(30, 190, 108);
+}
+
+.nav-link:hover,
+.nav-link.selected {
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-color: rgb(102, 195, 144);
+    text-decoration-thickness: 0.17em;
+} 
+
+.nav-link:active {
+   color: black;
+   text-decoration-color: black;
+   box-shadow: 0 4px 8px 
+}  
+
+
+.small {
+    padding: 0.5rem 1.2rem;
+    font-size: inherit;
+}
