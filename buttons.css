@@ -13,7 +13,7 @@ input {
     font-weight: 500;
 
     color: white;
-    background-color: rgb(102, 195, 144);
+    background-color: rgb(18, 226, 119);
     
     border-radius: 333rem;
 
@@ -22,11 +22,14 @@ input {
     cursor: pointer;    
 }
 
+.btn-primary,
+.btn-secondary {
+    outline: 1px solid hsl(149 73% 43% / 1);
+}
+
 
 .btn-secondary {
     background-color: transparent;
-
-    outline: 1px solid hsl(149 73% 43% / 1);
 
     box-shadow: none;
 
@@ -41,7 +44,7 @@ input {
 
 .btn-primary:hover,
 .btn-secondary:hover {
-    background: linear-gradient(to top, hsl(149 73% 43% / 0.7), hsl(147, 70%, 71%));
+    background: linear-gradient(to top, rgb(5, 238, 118), hsl(147, 100%, 74%));
     color: white;
 }
 
@@ -51,13 +54,13 @@ input {
 }
 
 .btn-secondary:active {
-    background-color: hsl(147 44% 58% / 0.9);
-
+ 
+    background: linear-gradient(to bottom, rgb(5, 238, 118), hsl(147, 100%, 74%));
 
 }
 
 .btn-primary:active {
-    background: linear-gradient(to bottom, hsl(149 73% 43% / 0.7), hsl(147, 70%, 71%));
+    background: linear-gradient(to bottom, rgb(5, 238, 118), hsl(147, 100%, 74%));
     box-shadow: 0 1px 1px hsla(149 93% 12% / 0.3);
 }
 
@@ -68,12 +71,12 @@ input {
 }
 
 .takete:hover {
-    background: hsl(147, 70%, 71%);
+    background: rgb(5, 238, 118);
 }
 
 
 .takete:active {
-    background:  hsl(149 73% 43% / 0.7);
+    background:  hsl(149 96%  48% / 0.7);
 }
 
 .takete:last-child:hover {

@@ -91,7 +91,7 @@ img {
     display: block;
     width: 32px;
     height: 32px;
-    background-color: rgb(30, 190, 108);
+    background-color: rgb(18, 226, 119);
     border-radius: 20rem;
 }
 
@@ -121,7 +121,7 @@ img {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: rgb(30, 190, 108);
+    color: rgb(9, 242, 122);
 }
 
 .nav-link:hover,
