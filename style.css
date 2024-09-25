@@ -51,10 +51,16 @@ nav {
 
 main {
     display: flex;
-    align-items: center;
+   
     justify-content: center;
+    padding-top: 2rem;
     
     gap: 3rem;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1.618fr 1fr;
 }
 
 .flex-layout {
@@ -72,8 +78,19 @@ section div {
     justify-content: center;
 }
 
+.align {
+
+    align-items: center;
+}
+
 
 /* image styling  */
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
 
 .logo {
     display: block;
@@ -129,4 +146,20 @@ section div {
 .small {
     padding: 0.5rem 1.2rem;
     font-size: inherit;
+}
+
+
+/* animation styling */
+
+.inline-image {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
 }

@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="buttons.css">
 
+    <script src="script.js" defer></script>
+
     <style>
         /* color: hsl(149 73% 43% / 1)  */
 
         input, button {
             padding: 1rem 2rem;
         }
-
-
 
     </style>
 </head>
@@ -34,31 +34,37 @@
                     <li><a class="nav-link" href="#">Om oss</a></li>
                 </ul>
                 <div>
-                    <input class="btn-primary small" type="button" value="Join us now">
+                    <input class="btn-primary small" type="button" value="Logga in">
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Referens</h2>
-
+        <section class="grid-layout">
             <div>
-                <button>Referens-knapp</button>
-            </div>
 
-            <h2>Rundade</h2>
-            <div class="flex-layout">
-                <input class="btn-primary" type="button" value="Primär knapp">
-                <input class="btn-secondary" type="button" value="Sekundär">
-                <input class="btn-tertiary" type="button" value="Tredje">
-            </div>
+                <h2>Referens</h2>
 
-            <h2>Kantiga</h2>
-            <div class="flex-layout">
-                <input class="btn-primary takete" type="button" value="Primär knapp">
-                <input class="btn-secondary takete" type="button" value="Sekundär">
-                <input class="btn-tertiary takete" type="button" value="Tredje">
+                <div>
+                    <button id="btnShowRef" class="flex-layout align">Referens-knapp</button>
+                </div>
+
+                <h2>Rundade</h2>
+                <div class="flex-layout">
+                    <input class="btn-primary" type="button" value="Primär knapp">
+                    <input class="btn-secondary" type="button" value="Sekundär">
+                    <input class="btn-tertiary" type="button" value="Tredje hand">
+                </div>
+
+                <h2>Kantiga</h2>
+                <div class="flex-layout">
+                    <input class="btn-primary takete" type="button" value="Primär knapp">
+                    <input class="btn-secondary takete" type="button" value="Sekundär">
+                    <input class="btn-tertiary takete" type="button" value="Tredje hand">
+                </div>
+            </div>
+            <div>
+                <img class="inline-image" src="maluma-home.jpg" alt="en bild på en app">
             </div>
         </section>
     </main>

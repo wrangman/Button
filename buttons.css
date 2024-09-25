@@ -19,16 +19,14 @@ input {
 
     box-shadow: 0 4px 4px hsla(149 93% 12% / 0.2);
 
-    cursor: pointer;
-
-    border: 1px solid transparent;
+    cursor: pointer;    
 }
 
 
 .btn-secondary {
     background-color: transparent;
 
-    border: 1px solid hsl(149 73% 43% / 1);
+    outline: 1px solid hsl(149 73% 43% / 1);
 
     box-shadow: none;
 
@@ -49,7 +47,7 @@ input {
 
 
 .btn-tertiary:hover {
-    border: 1px solid hsl(149 73% 43% / 1);
+    outline: 1px solid hsl(149 73% 43% / 1);
 }
 
 .btn-secondary:active {
