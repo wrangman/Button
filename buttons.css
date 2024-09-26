@@ -44,7 +44,7 @@ input {
 
 .btn-primary:hover,
 .btn-secondary:hover {
-    background: linear-gradient(to top, rgb(5, 238, 118), hsl(147, 100%, 74%));
+    background: linear-gradient(to top, rgb(5, 238, 118), hsl(147, 81%, 65%));
     color: white;
 }
 
@@ -55,12 +55,12 @@ input {
 
 .btn-secondary:active {
  
-    background: linear-gradient(to bottom, rgb(5, 238, 118), hsl(147, 100%, 74%));
+    background: linear-gradient(to bottom, rgb(5, 238, 118), hsl(147, 81%, 65%));
 
 }
 
 .btn-primary:active {
-    background: linear-gradient(to bottom, rgb(5, 238, 118), hsl(147, 100%, 74%));
+    background: linear-gradient(to bottom, rgb(5, 238, 118), hsl(147, 81%, 65%));
     box-shadow: 0 1px 1px hsla(149 93% 12% / 0.3);
 }
 
