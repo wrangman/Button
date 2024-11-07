@@ -55,7 +55,7 @@ main {
     justify-content: center;
     padding-top: 2rem;
     
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .grid-layout {
@@ -83,8 +83,10 @@ section div {
 
 img {
     display: block;
-    max-width: 100%;
+    max-width: 60%;
+
     object-fit: cover;
+    border-radius: 32px;
 }
 
 .logo {
